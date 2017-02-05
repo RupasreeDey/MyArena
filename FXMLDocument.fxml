@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="391.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myproject.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button layoutX="24.0" layoutY="2.0" mnemonicParsing="false" onAction="#actionCodeforces" text="Codeforces" />
+      <Button layoutX="186.0" layoutY="95.0" mnemonicParsing="false" onAction="#actionLogin" text="login" />
+      <TextField fx:id="display2" layoutX="26.0" layoutY="95.0" promptText="username" />
+      <TextField fx:id="display1" layoutX="24.0" layoutY="34.0" minHeight="50.0" minWidth="50.0" />
+      <Button layoutX="24.0" layoutY="160.0" mnemonicParsing="false" onAction="#actionVjudge" text="Vjudge" />
+      <TextField fx:id="display3" layoutX="24.0" layoutY="193.0" prefHeight="43.0" prefWidth="149.0" />
+      <TextField fx:id="display4" layoutX="24.0" layoutY="243.0" promptText="username" />
+      <Button layoutX="186.0" layoutY="243.0" mnemonicParsing="false" onAction="#actionLogin2" text="login" />
+      <Button layoutX="256.0" layoutY="2.0" mnemonicParsing="false" onAction="#actionCodechef" text="Codechef" />
+      <Button layoutX="403.0" layoutY="95.0" mnemonicParsing="false" onAction="#actionLogin3" text="login" />
+      <TextField fx:id="display6" layoutX="243.0" layoutY="95.0" promptText="username" />
+      <TextField fx:id="display5" layoutX="243.0" layoutY="34.0" prefHeight="50.0" prefWidth="149.0" />
+    </children>
+</AnchorPane>
